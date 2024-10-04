@@ -16,6 +16,7 @@ Ex02.ConsoleUtils.dll:
 This external DLL is used for clearing the console screen between moves. It provides the method Screen.Clear() to refresh the console display.
 The Ex02.ConsoleUtils.dll file should be placed in the C:\Temp directory for the project to function correctly.
 Add this DLL to the project via References > Add Reference > Browse, and select the DLL from the C:\Temp directory.
+(This external DLL, located in Ex02/Ex02.ConsoleUtils.dll)
 
 System.Drawing:
 The System.Drawing library is referenced to utilize the existing Point class for managing coordinates of grid cells in the game. 
